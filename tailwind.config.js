@@ -2,7 +2,11 @@
  export default {
   content: ["./dist/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'hero-pattern': "url('/img/blockfusemain-removebg-preview.png')",
+      }
+    },
   },
   plugins: [],
 }

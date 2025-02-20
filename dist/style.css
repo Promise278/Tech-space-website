@@ -675,6 +675,10 @@ video {
   height: 100%;
 }
 
+.h-screen {
+  height: 100vh;
+}
+
 .w-16 {
   width: 4rem;
 }
@@ -793,6 +797,10 @@ video {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
 
+.bg-hero-pattern {
+  background-image: url('/img/blockfusemain-removebg-preview.png');
+}
+
 .from-indigo-500 {
   --tw-gradient-from: #6366f1 var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(99 102 241 / 0) var(--tw-gradient-to-position);
@@ -807,6 +815,14 @@ video {
 
 .to-black {
   --tw-gradient-to: #000 var(--tw-gradient-to-position);
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-center {
+  background-position: center;
 }
 
 .p-6 {
