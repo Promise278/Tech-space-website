@@ -587,8 +587,16 @@ video {
   margin-bottom: 2rem;
 }
 
+.ml-1 {
+  margin-left: 0.25rem;
+}
+
 .ml-12 {
   margin-left: 3rem;
+}
+
+.ml-2 {
+  margin-left: 0.5rem;
 }
 
 .ml-24 {
@@ -607,12 +615,20 @@ video {
   margin-left: 1rem;
 }
 
+.ml-6 {
+  margin-left: 1.5rem;
+}
+
 .ml-8 {
   margin-left: 2rem;
 }
 
 .mr-20 {
   margin-right: 5rem;
+}
+
+.mr-4 {
+  margin-right: 1rem;
 }
 
 .mr-8 {
@@ -641,34 +657,6 @@ video {
 
 .mt-8 {
   margin-top: 2rem;
-}
-
-.ml-2 {
-  margin-left: 0.5rem;
-}
-
-.ml-1 {
-  margin-left: 0.25rem;
-}
-
-.ml-0 {
-  margin-left: 0px;
-}
-
-.mr-3 {
-  margin-right: 0.75rem;
-}
-
-.mr-36 {
-  margin-right: 9rem;
-}
-
-.mr-4 {
-  margin-right: 1rem;
-}
-
-.ml-6 {
-  margin-left: 1.5rem;
 }
 
 .flex {
@@ -707,6 +695,10 @@ video {
   height: 100vh;
 }
 
+.h-14 {
+  height: 3.5rem;
+}
+
 .w-16 {
   width: 4rem;
 }
@@ -739,12 +731,8 @@ video {
   width: 100%;
 }
 
-.w-36 {
-  width: 9rem;
-}
-
-.w-4 {
-  width: 1rem;
+.w-32 {
+  width: 8rem;
 }
 
 .grow {
@@ -757,10 +745,6 @@ video {
 
 .cursor-pointer {
   cursor: pointer;
-}
-
-.flex-row {
-  flex-direction: row;
 }
 
 .flex-col {
@@ -799,6 +783,10 @@ video {
   --tw-space-y-reverse: 0;
   margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
+}
+
+.overflow-hidden {
+  overflow: hidden;
 }
 
 .overflow-x-auto {
@@ -1019,11 +1007,17 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
-@media (min-width: 768px) {
-  .md\:mt-0 {
-    margin-top: 0px;
+@media (min-width: 640px) {
+  .sm\:h-12 {
+    height: 3rem;
   }
 
+  .sm\:w-32 {
+    width: 8rem;
+  }
+}
+
+@media (min-width: 768px) {
   .md\:ml-12 {
     margin-left: 3rem;
   }
@@ -1032,12 +1026,12 @@ video {
     margin-left: 6rem;
   }
 
-  .md\:mr-20 {
-    margin-right: 5rem;
-  }
-
   .md\:ml-4 {
     margin-left: 1rem;
+  }
+
+  .md\:mt-0 {
+    margin-top: 0px;
   }
 
   .md\:flex {
@@ -1048,11 +1042,11 @@ video {
     display: none;
   }
 
-  .md\:flex-row {
-    flex-direction: row;
+  .md\:h-10 {
+    height: 2.5rem;
   }
 
-  .md\:flex-col {
-    flex-direction: column;
+  .md\:flex-row {
+    flex-direction: row;
   }
 }
