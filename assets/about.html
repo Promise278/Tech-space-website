@@ -9,24 +9,30 @@
 </head>
 <body class="bg-black text-white w-full">
     <div>
-        <nav id="top" class="flex justify-around pt-4 bg-gray-500 h-20 mx-20">
+        <nav id="top" class="flex justify-around pt-4 bg-gray-500 h-20 mx-20 mt-8">
             <img src="/img/BLOCKFUSESD-1.png" class="pb-4" width="80" alt="Logo">
-            <ul class="flex gap-4 mt-4">
+            <ul class="flex gap-4 mt-4 hidden md:flex">
                 <li><a class="hover:text-green-500" href="/dist/index.html">Home</a></li>
-                <li><a class="hover:text-red-500" href="/assets/about.html">About Us</a></li>
+                <li><a class="hover:text-red-500" href="/assets/about.html">AboutUs</a></li>
                 <li><a class="hover:text-blue-500" href="/assets/team.html">Team</a></li>
                 <li><a class="hover:text-pink-500" href="#">Boot Camp</a></li>
                 <li><a class="hover:text-purple-500" href="#">Events</a></li>
                 <li><a class="hover:text-orange-500" href="#">Blog</a></li>
                 <li><a class="hover:text-green-500" href="#">Open Source</a></li>
+                <div class="flex">
+                    <button class="bg-black text-white h-12 w-24 hover:bg-gray-500 border-2 border-purple-500">Donate</button>
+                    <button class="bg-purple-500 text-white h-12 w-26 ml-3 pt-2 pl-2 pr-2 flex">Apply Now
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="m560-240-56-58 142-142H160v-80h486L504-662l56-58 240 240-240 240Z"/></svg>
+                    </button>
+                </div>
             </ul>
-            <div class="flex mt-1">
-                <button class="bg-black text-white h-12 w-24 hover:bg-gray-500 border-2 border-purple-500">Donate</button>
-                <button class="bg-purple-500 text-white h-12 w-26 ml-3 pt-2 pl-2 pr-2 flex">Apply Now
-                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="m560-240-56-58 142-142H160v-80h486L504-662l56-58 240 240-240 240Z"/></svg>
-                </button>
-                <svg class="ml-4 mt-2 bg-" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M480-360q50 0 85-35t35-85q0-50-35-85t-85-35q-50 0-85 35t-35 85q0 50 35 85t85 35Zm0 80q-83 0-141.5-58.5T280-480q0-83 58.5-141.5T480-680q83 0 141.5 58.5T680-480q0 83-58.5 141.5T480-280ZM200-440H40v-80h160v80Zm720 0H760v-80h160v80ZM440-760v-160h80v160h-80Zm0 720v-160h80v160h-80ZM256-650l-101-97 57-59 96 100-52 56Zm492 496-97-101 53-55 101 97-57 59Zm-98-550 97-101 59 57-100 96-56-52ZM154-212l101-97 55 53-97 101-59-57Zm326-268Z"/></svg>
-            </div>
+            <ul class="flex gap-2 md:hidden">
+                <li><a class="hover:text-green-500" href="/dist/index.html">Home</a></li>
+                <li><a class="hover:text-red-500" href="/assets/about.html">AboutUs</a></li>
+                <li><a class="hover:text-blue-500" href="/assets/team.html">Team</a></li>
+            </ul>
+            <svg class="ml-4 mt-2 bg-" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M480-360q50 0 85-35t35-85q0-50-35-85t-85-35q-50 0-85 35t-35 85q0 50 35 85t85 35Zm0 80q-83 0-141.5-58.5T280-480q0-83 58.5-141.5T480-680q83 0 141.5 58.5T680-480q0 83-58.5 141.5T480-280ZM200-440H40v-80h160v80Zm720 0H760v-80h160v80ZM440-760v-160h80v160h-80Zm0 720v-160h80v160h-80ZM256-650l-101-97 57-59 96 100-52 56Zm492 496-97-101 53-55 101 97-57 59Zm-98-550 97-101 59 57-100 96-56-52ZM154-212l101-97 55 53-97 101-59-57Zm326-268Z"/></svg>
+            <!-- <ion-icon id="menu-open" name="menu" class="text-3xl cursor-pointer text-white md:hidden"></ion-icon> -->
         </nav>
         <div class="mt-12">
             <h1 class="text-center font-bold text-5xl font-mono">
@@ -76,7 +82,7 @@
                 Join Blockfuse Labs to transform your skills into real-world impact. Learn, innovate, and disrupt alongside a community pushing <br> the boundaries of tech.
             </p>
         </div>
-        <div class="flex justify-around mt-12">
+        <div class="flex justify-around mt-12 md:flex-row flex-col">
             <div class="border-2 border-purple-500 bg-black">
                 <div class="flex mt-4">
                     <div class="flex mt-4 ml-8">
@@ -88,7 +94,7 @@
                 </div>
                 <p class="pl-12 pr-4 pt-4">To be the leading global hub for blockchain innovation, where <br> creativity, knowledge, and technology intersect to create <br> solutions that change the world.</p>
             </div>
-            <div class="border-2 border-purple-500 bg-black">
+            <div class="border-2 border-purple-500 bg-black mt-4">
                 <div class="flex mt-4">
                     <div class="flex mt-4 ml-8">
                         <span class="w-8 h-8 bg-purple-500 rounded-full pt"></span>
